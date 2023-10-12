@@ -1,0 +1,53 @@
+.nav__linje {
+  width: 100% - 24px;
+  height: 96px;
+  padding: 0 24px;
+  background-color: red;
+}
+.nav__div {
+  width: inherit;
+  height: inherit;
+  background-color: blue;
+}
+.over__nav {
+  width: inherit;
+  height: 50%;
+  background-color: white;
+}
+.nedre__nav {
+  width: inherit;
+  height: 50%;
+  background-color: white;
+}
+.flex__nav {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: inherit;
+  background-color: black;
+}
+.venstre__ovre__nav {
+  width: 33.33333333333333333333%;
+  height: inherit;
+  background-color: brown;
+}
+.midten__ovre__nav {
+  width: 33.33333333333333333334%;
+  height: inherit;
+  background-color: blueviolet;
+}
+.hoyre__ovre__nav {
+  width: 33.33333333333333333333%;
+  height: inherit;
+  background-color: pink;
+}
+.venstre__nedre__nav {
+  height: 100%;
+  width: calc(60% + 1rem);
+  background-color: coral;
+}
+.hoyre__nedre__nav {
+  height: 100%;
+  width: 40%;
+  background-color: crimson;
+}
