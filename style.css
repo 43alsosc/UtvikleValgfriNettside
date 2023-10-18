@@ -1,13 +1,23 @@
+/* Standard klasser */
+a {
+  text-decoration: none;
+  color: black;
+}
+/* Navigasjonslinjen */
+.nav__font {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
 .nav__linje {
   width: 100% - 24px;
   height: 96px;
   padding: 0 24px;
-  background-color: red;
 }
 .nav__div {
   width: inherit;
   height: inherit;
-  background-color: blue;
+  padding: 0 10%;
 }
 .over__nav {
   width: inherit;
@@ -26,28 +36,56 @@
   width: inherit;
   background-color: black;
 }
+/* Innhold oppe til venstre */
 .venstre__ovre__nav {
   width: 33.33333333333333333333%;
   height: inherit;
-  background-color: brown;
+  background-color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
+.venstre__ovre__nav ul {
+  width: 100%;
+}
+.dame,
+.herre,
+.barn {
+  display: flex;
+  display: inline;
+  margin-right: 2%;
+}
+.velgKjonn {
+  padding: 6px 18px;
+}
+.velgKjonn:hover {
+  background: rgba(26, 26, 26, 0.15);
+}
+
+/* Innhold oppe i midten */
 .midten__ovre__nav {
   width: 33.33333333333333333334%;
   height: inherit;
   background-color: blueviolet;
 }
+
+/* Innhold oppe til høyre */
 .hoyre__ovre__nav {
   width: 33.33333333333333333333%;
   height: inherit;
   background-color: pink;
 }
+
+/* Innhold nede til venstre */
 .venstre__nedre__nav {
   height: 100%;
-  width: calc(60% + 1rem);
+  width: calc(55% + 1rem);
   background-color: coral;
 }
+
+/* Innhold nede til høyre */
 .hoyre__nedre__nav {
   height: 100%;
-  width: 40%;
+  width: 45%;
   background-color: crimson;
 }
