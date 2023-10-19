@@ -3,6 +3,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
+/* Felles Klasser */
+.material-symbols-outlined {
+  font-size: 30px;
+}
 /* Navigasjonslinjen */
 .nav__font {
   font-size: 16px;
@@ -66,16 +71,33 @@ a {
 .midten__ovre__nav {
   width: 33.33333333333333333334%;
   height: inherit;
-  background-color: blueviolet;
+  background-color: white;
+}
+.logo {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.logo__link img {
+  width: auto;
+  height: 48px;
 }
 
 /* Innhold oppe til høyre */
 .hoyre__ovre__nav {
   width: 33.33333333333333333333%;
   height: inherit;
-  background-color: pink;
+  background-color: white;
 }
-
+.icons__holder {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 5%;
+}
 /* Innhold nede til venstre */
 .venstre__nedre__nav {
   height: 100%;
