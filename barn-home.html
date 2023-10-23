@@ -84,11 +84,21 @@
                             <li>Designer</li>
                         </ul>
                     </div>
-                    <div class="hoyre__nedre__nav"></div>
+                    <div class="hoyre__nedre__nav">
+                        <div class="search-bar">
+                            <span class="material-symbols-outlined">search</span>
+                            <input type="text" id="search" placeholder="Søk her">
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
     </nav>
-
+    <div id="results">
+        <!-- Her viser vi teksten som er skrevet i søkefeltet -->
+        Du søkte etter: <span id="search-display"></span>
+    </div>
+    <script src="scipt.js"></script>
 </body>
 
 </html>
