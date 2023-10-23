@@ -17,12 +17,11 @@ a {
 .nav__linje {
   width: 100% - 24px;
   height: 96px;
-  padding: 0 24px;
 }
 .nav__div {
   width: inherit;
   height: inherit;
-  padding: 0 10%;
+  padding: 0 4%;
 }
 .over__nav {
   width: inherit;
@@ -102,9 +101,17 @@ a {
 .venstre__nedre__nav {
   height: 100%;
   width: calc(55% + 1rem);
-  background-color: coral;
+  background-color: white;
 }
-
+.filter__list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 3%;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+}
 /* Innhold nede til høyre */
 .hoyre__nedre__nav {
   height: 100%;
