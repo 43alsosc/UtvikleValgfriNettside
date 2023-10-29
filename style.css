@@ -88,9 +88,22 @@ hr {
   justify-content: center;
   align-content: center;
 }
-.logo__link img {
+.logo__link {
   width: auto;
   height: 48px;
+}
+.logo__link svg {
+  height: 48px;
+}
+.cls-1,
+.cls-2 {
+  font-family: Futura-Medium, Futura;
+  font-size: 199px;
+  font-weight: 500;
+}
+
+.cls-2 {
+  fill: gray;
 }
 
 /* Innhold oppe til høyre */
