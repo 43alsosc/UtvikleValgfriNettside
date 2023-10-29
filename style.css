@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 /* Standard klasser */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 a {
   text-decoration: none;
   color: black;
 }
-
+hr {
+  margin-bottom: 2vw;
+}
 /* Felles Klasser */
 .material-symbols-outlined {
   font-size: 30px;
@@ -150,4 +158,71 @@ a {
   top: 0;
   right: 0;
   display: none;
+}
+
+/* Klær delen */
+
+.category {
+  padding-left: 10vw;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.products-container {
+  height: 29vw;
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+  scroll-behavior: smooth;
+  margin-right: -10vw;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 15vw;
+  height: 29vw;
+  text-align: center;
+  white-space: normal;
+}
+.product__image {
+  height: 24vw;
+  width: 100%;
+  max-width: 100%;
+}
+.product__image img {
+  height: 100%;
+}
+.product__text {
+  width: 100%;
+  height: 4vw;
+  text-align: left;
+}
+.product__text h3 {
+  text-align: left;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+.product__text p {
+  text-align: left;
+  font-size: 16px;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  font-family: "Inter", sans-serif;
+}
+.product__text span {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.category::-webkit-scrollbar {
+  width: 0;
+}
+.products-container::-webkit-scrollbar {
+  width: 0;
 }
