@@ -20,4 +20,10 @@
 
 
 ### Tilbakemelding
-#### 
+#### Kan du skille hva de tre ikonene øverst til høyre betyr?
+
+#### Er det enkelt å skjønne at man kan bla gjennom klærene?
+
+#### Er det enkelt å skille navigasjonslinjen og Produkt delene av nettsiden?
+
+#### Er det noe du ville gjort annerledes eller om det er noe som kan forberedes?
