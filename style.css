@@ -212,11 +212,13 @@ hr {
 }
 .display-text-whiteText {
   text-align: center;
+  font-weight: bold;
   color: white;
   font-family: "Inter", sans-serif;
   font-size: 30px;
 }
 .display-text-blackText {
+  font-weight: bold;
   text-align: center;
   color: black;
   font-family: "Inter", sans-serif;
