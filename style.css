@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-/* Standard klasser */
+/* Standard klasser // Felles Klasser */ 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: 30px;
 }
 html,
 body {
@@ -13,7 +14,7 @@ span,
 h1,
 h2,
 h3,
-p {
+p, li {
   font-family: "Inter", sans-serif;
 }
 a {
@@ -23,10 +24,8 @@ a {
 hr {
   margin: 0;
 }
-/* Felles Klasser */
-.material-symbols-outlined {
-  font-size: 30px;
-}
+
+
 
 /* Navigasjonslinjen */
 .nav__linje {
@@ -194,9 +193,16 @@ hr {
 .productDisplay {
   margin-top: 3%;
   display: flex;
+  align-items: center;
   width: auto;
+  max-height: 40vh;
+  min-height: 20vh; 
+}
+#productDisplay-1 {
   background-color: #0d4a61;
-  max-height: 40vh; /* Use min-height instead of fixed height */
+}
+#productDisplay-2 {
+  background-color: rgb(162, 163, 168);
 }
 .productDisplay-text {
   width: 50%;
@@ -229,6 +235,10 @@ hr {
 }
 #category-1 {
   background-color: hsl(196, 76.4%, 12.96%);
+  color: white;
+}
+#category-2 {
+  background-color: hsl(240, 4%, 91%);
   color: white;
 }
 
@@ -280,8 +290,6 @@ hr {
   max-height: 10%;
   font-family: "Inter", sans-serif;
   color: white;
-}
-.articel__text {
 }
 .article__description {
   color: white;
