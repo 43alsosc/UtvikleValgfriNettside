@@ -148,6 +148,19 @@ hr {
   width: 100%;
   font-size: 14px;
 }
+.filter__list__p {
+  font-family: "Inter", sans-serif;
+  position: relative;
+  display: inline-block;
+}
+.filter__list__p span {
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.filter__list__p:hover span {
+  border-color: #000; /* Change to your desired underline color */
+  cursor: pointer;
+}
 /* Innhold nede til høyre */
 .hoyre__nedre__nav {
   height: 100%;
