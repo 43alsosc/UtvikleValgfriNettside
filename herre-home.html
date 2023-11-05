@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"> <!-- Lenke til stilarkfilen -->
+    <link rel="stylesheet" href="reset.css"> <!-- Lenke til stilarket som tilbakestiller standardstiler -->
     <title>Garderobe Glede</title>
 </head>
 
@@ -20,19 +20,24 @@
             <div class="over__nav">
                 <!-- Div som holder tre deler og flexer dem utover linjen -->
                 <div class="flex__nav">
+                    <!-- Div som er oppe til venstre -->
                     <div class="venstre__ovre__nav">
+                        <!-- Unordered list som holder knappene til Dame/herre/barn dokumentene -->
                         <ul>
+                            <!-- Dame knappen -->
                             <li class="dame ">
                                 <a role="link" href="/dame-home.html" class="velgKjonn">
                                     <span class="nav__font">Dame</span>
                                 </a>
                             </li>
+                            <!-- Herre knappen -->
                             <li class="herre ">
                                 <a role="link" href="/herre-home.html" class="velgKjonn"
                                     style="background-color: black; color: white;">
                                     <span class="nav__font">Herre</span>
                                 </a>
                             </li>
+                            <!-- Barne knappen -->
                             <li class="barn ">
                                 <a role="link" href="/barn-home.html" class="velgKjonn">
                                     <span class="nav__font">Barn</span>
@@ -41,9 +46,13 @@
                         </ul>
 
                     </div>
+                    <!-- Div som er oppe i midten -->
                     <div class="midten__ovre__nav">
+                        <!-- Div som holder logo linken -->
                         <div class="logo">
+                            <!-- Logo linken -->
                             <a href="#" class="logo__link">
+                                <!-- svg kode som er logoen -->
                                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 363.5 232.67">
                                     <text class="cls-1" transform="translate(185.5 175.24)">
@@ -56,18 +65,23 @@
                             </a>
                         </div>
                     </div>
+                    <!-- Div som er oppe til høyre -->
                     <div class="hoyre__ovre__nav">
+                        <!-- Div som holder ikonen favoritter/handlekurv/profil//min side-->
                         <div class="icons__holder">
+                            <!-- Favoritter knapp -->
                             <a class="favorite" role="link" href="/favoritter.html">
                                 <span class="material-symbols-outlined">
                                     favorite
                                 </span>
                             </a>
+                            <!-- Handlekurv knapp -->
                             <a class="shopping_cart" role="link" href="/handlekurv.html">
                                 <span class="material-symbols-outlined">
                                     shopping_bag
                                 </span>
                             </a>
+                            <!-- Profil // Min side knapp -->
                             <a class="account" role="link" href="/personlia.html">
                                 <span class="material-symbols-outlined">
                                     account_circle
@@ -82,7 +96,9 @@
             <div class="nedre__nav">
                 <!-- Div som holder to deler og flexer dem utover linjen -->
                 <div class="flex__nav">
+                    <!-- Div som ligger nede til venstre av nav linjen -->
                     <div class="venstre__nedre__nav">
+                        <!-- Unordered list som holder Filter list temaene -->
                         <ul class="filter__list">
                             <li><a href="#" class="filter__list__p">
                                 <span>Nyheter</span>
@@ -108,6 +124,7 @@
                         </ul>
                     </div>
                     <div class="hoyre__nedre__nav">
+                        <!-- Søkebaren -->
                         <div class="search-bar">
                             <span class="material-symbols-outlined">search</span>
                             <input type="text" id="search" placeholder="Søk her">
@@ -116,9 +133,10 @@
                 </div>
             </div>
     </nav>
-
+    <!-- Overlay som kommer når musen "hovers" over filter__listen -->
     <div class="overlay"></div>
-
+    
+    <!-- Div som er over produktene for å si litt om hva produktene under er -->
     <div class="productDisplay" id="productDisplay-1">
         <div class="productDisplay-text" >
             <h1 class="display-text-whiteText">Meta Streetwear</h1>
@@ -129,24 +147,37 @@
             </h3>
         </div>
     </div>
-    <section class="category" id="category-1">
-          <ul class="products-container">
-            <li class="product">
-                <div class="article__holder">
-                    <article class="article">
 
+    <!-- Produkt liste horisontal -->
+    <section class="category" id="category-1">
+        <!-- Unrodered liste horisontal -->
+        <ul class="products-container">
+            <!-- Produkt liste-del som holder 1 produkt. Bilde, produsent, pris og enkelt beskrivelse -->
+            <li class="product">
+                <!-- En div som holder article-tagen -->
+                <div class="article__holder">
+                    <!-- Article som innholder alt til produktet -->
+                    <article class="article">
+                        <!-- Lenke som holder Produkt bilde -->
                         <a href="" class="article__image">
                             <img src="https://img01.ztat.net/article/spp-media-p1/5c4252b95b5745baa05fedd1b7484a7c/8eee58698cc7433c8735ade1ce738483.jpg?imwidth=300"
-                                alt="">
+                            alt="">
                         </a>
+                        <!-- Div som holder lenkene til produsent/beskrivelse og pris -->
                         <div class="div__article__text">
+                            <!-- Lenke som holder Produsent/beskrivelse -->
                             <a href="" class="article__text">
+                                <!-- Div som holder produsent/beskrivelse -->
                                 <div class="article__description-whiteText">
+                                    <!-- Produsent -->
                                     <h3 class="product__producer">adidas Originals</h3>
+                                    <!-- Beskrivelse -->
                                     <h3 class="product__description">TRACK - Lett jakke - mottled blue</h3>
-                                </div>
+                                </div>  
                             </a>
+                            <!-- p-tag som holder prisen i Dollar -->
                             <p class="aritcle__price">
+                                <!-- Pris i dollar -->
                                 <span class="product__price-whiteText">120$</span>
                             </p>
                         </div>
@@ -267,6 +298,7 @@
         </ul>
     </section>
 
+    <!-- Div som er over produktene for å si litt om hva produktene under er -->
     <div class="productDisplay" id="productDisplay-2">
         <div class="productDisplay-text">
             <h1 class="display-text-blackText">ECCO, Nyhet</h1>
@@ -277,6 +309,8 @@
             </h3>
         </div>
     </div>
+
+    <!-- Produkt liste horisontal -->
     <section class="category" id="category-2">
           <ul class="products-container">
             <li class="product">
@@ -414,6 +448,8 @@
             <!-- Legg til fler produkt <li> for å få flere produkter på linjen -->
         </ul>
     </section>
+
+    <!-- Lenke til scriptarket -->
     <script src="script.js"></script>
 </body>
 
