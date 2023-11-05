@@ -200,6 +200,17 @@ hr {
   right: 0;
   display: none;
 }
+/* Overlay */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 96px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgb(255, 255, 255);
+  transition: height 0.3s;
+}
 
 /* Klær delen */
 /* Produkt Fremhevning  */
