@@ -56,12 +56,16 @@
 ### Bruker 2
   Oppgave 1,
     Ja jeg fant den.
+    
   Oppgave 2,
     Det greide jeg.
+    
   Oppgave 3,
     lett å forså.
+    
   Oppgave 4,
     Går det an? fant ikke ut av det.
+    
   Oppgave 5,
     Tok litt tid å skjønne, men når jeg så den skjønte jeg greia.
 
