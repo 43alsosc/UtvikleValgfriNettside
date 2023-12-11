@@ -48,10 +48,10 @@
     Det var enkelt å se at sport-seksjonen var der. 
 
   ###### Tilbakemeldinger
-    Tilbakemeldig 1.  Jeg kan skille de tre ikonene, jeg tenker det er favoritter, handlekurv og min profil.
-    Tilbakemelding 2.  Jeg tror du bør ha en skrollbar eller piler for å lettere kunne se at det er flere klær.
-    Tilbakemelding 3.  Ja jeg vil si det
-    Tilbakemelding 4.  Utenom å bla så syntes jeg at den funker bra utenom at de fleste linkene ikke går noen steder enda.
+  Tilbakemeldig 1.  Jeg kan skille de tre ikonene, jeg tenker det er favoritter, handlekurv og min profil.
+  Tilbakemelding 2.  Jeg tror du bør ha en skrollbar eller piler for å lettere kunne se at det er flere klær.
+  Tilbakemelding 3.  Ja jeg vil si det
+  Tilbakemelding 4.  Utenom å bla så syntes jeg at den funker bra utenom at de fleste linkene ikke går noen steder enda.
 
 ### Bruker 2
   Oppgave 1,
@@ -69,9 +69,9 @@
   Oppgave 5,
     Tok litt tid å skjønne, men når jeg så den skjønte jeg greia.
 
-  Tilbakemeldinger
-    Tilbakemeldig 1.  likte varer, handlekurv og profil
-    Tilbakemeldig 2.  Nei, her ville jeg hatt noe for å trykke på eller vise at du kan bla.
-    Tilbakemeldig 3.  Jeg syntes det var lett å skjønne.
-    Tilbakemeldig 4.  Ha bedre farge-kombinasjoner og vise hvordan/du kan bla gjennom varer
+  ###### Tilbakemeldinger
+  Tilbakemeldig 1.  likte varer, handlekurv og profil
+  Tilbakemeldig 2.  Nei, her ville jeg hatt noe for å trykke på eller vise at du kan bla.
+  Tilbakemeldig 3.  Jeg syntes det var lett å skjønne.
+  Tilbakemeldig 4.  Ha bedre farge-kombinasjoner og vise hvordan/du kan bla gjennom varer
   
